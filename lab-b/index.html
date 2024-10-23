@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        div{}
+        ul{}
+        li{}
+    </style>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div id="div">
+        <form onsubmit="return false;">
+            <label for="searchBox">Znajdź zadanie:<br></label>
+            <input type="search" id="searchBox" required minlength="2" size="100" maxlength="255" style="max-width:200px;"/>
+        </form>
+
+        <ul class="taskList">
+        </ul>
+
+        <table id="taskList">
+
+        </table>
+
+        <form onsubmit="return false;">
+            <label for="inputText">Nazwa zadania:</label>
+            <input type="text" id="inputText" required minlength="2" size="100" maxlength="255" style="max-width:200px;"/>
+            <label for="inputDate">Data:</label>
+            <input type="date" id="inputDate" required/>
+        </form>
+        <button id="saveTask">Zapisz zadanie</button>
+    </div>
+</body>
+<script src="./script.js"></script>
+</html>
