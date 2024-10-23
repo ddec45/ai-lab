@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sixtyfour+Convergence&display=swap');
+
+body{
+    background-image: url("matrix2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: "Press Start 2P" ,sans-serif;
+    font-size: 14px;
+    color: greenyellow;
+}
+a{
+    background-color: darkblue;
+}
+a:link, a:visited{
+    color: white;
+}
+h2{
+    color: indianred;
+    background-color: darkgreen;
+    max-width: 500px;
+    margin-left: 40px;
+    padding-left: 20px;
+    min-height: 40px;
+    align-content: center;
+    font-family: "Sixtyfour Convergence", sans-serif;
+    font-size: 30px;
+}
+.class {
+    margin-left: 80px;
+    background-color: black;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+p{
+    padding-left: 60px;
+}
+h3{
+    color: white;
+    max-width: 500px;
+    margin-left: 20px;
+    height: 20px;
+    align-content: center;
+    background-color: gray;
+    padding-left: 20px;
+}
+img{
+    display: block;
+}
+h4{
+    padding-left: 80px;
+}
+ul, ol{
+    margin-left: 80px;
+    background-color: dimgray;
+    color: white;
+    max-width: 500px;
+    box-sizing: border-box;
+}
+ol{
+    padding-left: 60px;
+}
+li{
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+footer{
+    color: red;
+    background-color: darkgreen;
+    max-width: 1000px;
+    margin-left: 40px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    padding-left: 20px;
+    height: 40px;
+    align-content: center;
+    font-family: "Sixtyfour Convergence", sans-serif;
+    font-size: 30px;
+}
