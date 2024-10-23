@@ -97,9 +97,10 @@ window.addEventListener("click",(event)=>{
         let tdArr = tr.children;
         todo.oldTaskName = tdArr[0].innerText;
         tdArr[0].innerHTML = "<label for=\"inputNewText\"></label>" +
-            "<input type=\"text\" id=\"inputNewText\" required minlength=\"2\" size=\"100\" maxlength=\"255\" style=\"max-width:50px;\"/>";
+            "<input type=\"text\" id=\"inputNewText\" required minlength=\"2\" size=\"100\" maxlength=\"255\" style=\"max-width:100px;\" value=\"" +
+            tdArr[0].innerText + "\"/>";
         tdArr[1].innerHTML = "<label for=\"inputNewDate\"></label>" +
-            "<input type=\"date\" id=\"inputNewDate\" required/>"
+            "<input type=\"date\" id=\"inputNewDate\" required value=\"" + tdArr[1].innerText + "\"/>"
         tdArr[2].innerHTML = "<button class=updateTask>Zapisz</button>";
         todo.duringUpdate = true;
         return;
@@ -112,7 +113,5 @@ window.addEventListener("click",(event)=>{
     }
     else{
         saveToLocalStorage();
-        console.log(localStorage);
     }
-    console.log(event);
 })
