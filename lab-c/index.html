@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Maps with Leaflet</title>
+    <link rel="stylesheet" href="leaflet-1.7.1/leaflet.css" />
+    <script src="leaflet-1.7.1/leaflet-src.js"></script>
+    <script src="leaflet-1.7.1/leaflet-providers.js"></script>
+    <script src="leaflet-1.7.1/leaflet-image.js"></script>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        #map{
+            width: 600px;
+            height: 300px;
+            border: 1px solid black;
+            display: inline-block;
+        }
+        #puzzle-piece-targets{
+            width: 650px;
+            height: 350px;
+            border: 1px solid black;
+            display: inline-block;
+            align-content: center;
+            text-align: center;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: clip;
+            line-height: 0;
+        }
+        #puzzle-pieces{
+            max-width: 1200px;
+            border: 1px solid black;
+            min-height: 75px;
+            overflow: hidden;
+        }
+        .puzzle-piece{
+
+            margin: 1px;
+            align-content: center;
+            text-align: center;
+        }
+        .puzzle-piece-target{
+            border: 1px solid black;
+
+            margin: 0;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+<div id="map"></div>
+<div id="puzzle-piece-targets">
+
+</div>
+<br>
+<button id="getLocation">Get Current Location</button>
+<button id="saveButton">Save Raster Map</button>
+<br>
+
+<div id="puzzle-pieces">
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
