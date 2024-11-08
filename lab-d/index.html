@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pogodynka</title>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        #weather_element{
+            display: inline-block;
+            border: 1px solid black;
+            margin: 5px;
+            margin-bottom: 15px;
+            text-align: center;
+            padding-left: 5px;
+            padding-right: 5px;
+        }
+        #weather_field_2{
+            font-size: 0.8em;
+        }
+        #weather_field_1{
+            font-size: 1.0em;
+        }
+        img{
+            width: 60%;
+        }
+    </style>
+</head>
+<body>
+<h1>Pogodynka</h1>
+<h2>Wpisz nazwę miasta:</h2>
+<form>
+    <input type='text' id='address_bar'>
+</form>
+<button id="button_get_weather">Pogoda</button>
+<br>
+
+<div id="weather_fields">
+    <div id="weather_field_1">
+
+    </div>
+    <div id="weather_field_2">
+
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
